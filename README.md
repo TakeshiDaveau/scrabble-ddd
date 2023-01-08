@@ -2,9 +2,17 @@
 
 Kata for DDD, BDD and HATEOAS
 
+## Rules
+
+https://scrabble.hasbro.com/en-us/rules
+
+### Letters distribution
+
+https://en.wikipedia.org/wiki/Scrabble_letter_distributions
+
 ## Design
 
-### Module definition
+### Module types definition
 
 Letter and word
 
