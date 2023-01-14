@@ -55,6 +55,14 @@ Actions
 - type DefinePlayersOrder = Game -> Game
 - type NextPlayer = Game -> Game
 
+### Word validation
+
+At this time we'll only provide french scrabble. To valide the word we'll use https://1mot.net/.
+
+Test if the `<h1>` ends with "n'est pas valide au scrabble" (KO) or "est valide au scrabble" (OK).
+
+In case of HTTP error the word is considered as invalid.
+
 ## Roadmap
 
 - [ ] Add the domain layer with Behaviour Driven Development 
